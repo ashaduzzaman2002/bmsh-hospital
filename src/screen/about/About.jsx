@@ -1,9 +1,11 @@
-import React from 'react'
 import Layout from '../../layout/Layout'
+import Footer from '../../components/Footer/Footer'
 
 const About = () => {
   return (
-    <Layout title={'About Us'}>About</Layout>
+    <Layout title={'About Us'}>
+      <Footer/>
+    </Layout>
   )
 }
 

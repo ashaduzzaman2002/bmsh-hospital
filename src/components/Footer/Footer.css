@@ -1,0 +1,36 @@
+.footer-container {
+    background-color: #002441;
+    padding: 4rem;
+}
+
+.footer-bmsh-logo {
+    width: 3rem;
+    aspect-ratio: 1 / 1;
+}
+
+.footer-logos {
+    width: 2rem;
+    aspect-ratio: 1 / 1;
+}
+
+.footer-container-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10rem 6rem 0rem 6rem;
+    gap: 2rem;
+}
+
+.footer-floating-card {
+    width: 90%;
+    margin-top: -2rem;
+}
+
+@media screen and (max-width: 992px) {
+    .footer-container-card-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10rem 1rem 0rem 1rem;
+    }
+    .footer-floating-card {
+        margin-top: -4.5rem;
+    }
+}
