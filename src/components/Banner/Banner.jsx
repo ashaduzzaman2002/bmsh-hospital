@@ -12,19 +12,19 @@ const Banner = () => {
 
     let position = initialScreenWidth;
 
-    const moveText = () => {
-      // Calculate the new position
-      let newPosition = position - 1;
-      if (newPosition < -textWidth) {
-        newPosition = initialScreenWidth; // Reset to the right edge
-      }
+    // const moveText = () => {
+    //   // Calculate the new position
+    //   let newPosition = position - 1;
+    //   if (newPosition < -textWidth) {
+    //     newPosition = initialScreenWidth; // Reset to the right edge
+    //   }
     
-      textElement.style.left = `${newPosition}px`;
-      position = newPosition;
-    };
-    const interval = setInterval(moveText, 10);
+    //   textElement.style.left = `${newPosition}px`;
+    //   position = newPosition;
+    // };
+    // const interval = setInterval(moveText, 10);
 
-    return () => clearInterval(interval);
+    // return () => clearInterval(interval);
   }, []);
 
   return (

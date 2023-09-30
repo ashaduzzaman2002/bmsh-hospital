@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import { Helmet } from "react-helmet";
+import Footer from "../components/Footer/Footer";
 
 const Layout = ({ children, title }) => {
   return (
@@ -10,6 +11,7 @@ const Layout = ({ children, title }) => {
       </Helmet>
       <Navbar />
       {children}
+      <Footer />
     </>
   );
 };

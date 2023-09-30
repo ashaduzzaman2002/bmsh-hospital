@@ -1,0 +1,19 @@
+.our-client-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.our-client-cards div {
+    background-color: #fff;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+}
+
+.our-client-cards div img {
+    max-width: 80%;
+    object-fit: contain;
+}
