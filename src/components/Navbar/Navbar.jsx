@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <>
       <div className="nav-container w-100 py-2">
-        <div className="d-flex w-75  gap-5 justify-content-between justify-content-lg-center align-items-center mx-auto nav-text">
+        <div className="d-flex gap-5 container justify-content-between align-items-center mx-auto nav-text">
           <div className="nav-left d-flex gap-3 justify-content-center align-items-center ">
             <img className="nav-logo" src={LOGO} alt="bmsh-logo" />
             <p className=" fw-bold m-0 p-0">

@@ -1,11 +1,49 @@
-import './Banner.css'
+import { useEffect } from "react";
+import { Apointment } from "../../assets/svg/SVGIcon";
+import "./Banner.css";
 
 const Banner = () => {
-  return (
-    <div className='banner-container m-0 p-0'>
-      
-    </div>
-  )
-}
+  const text = "Bombay Maternity & Surgical Hospital";
+  const initialScreenWidth = window.innerWidth;
 
-export default Banner
+  useEffect(() => {
+    const textElement = document.getElementById("moving-text");
+    const textWidth = textElement.offsetWidth;
+
+    let position = initialScreenWidth;
+
+    const moveText = () => {
+      // Calculate the new position
+      let newPosition = position - 1;
+      if (newPosition < -textWidth) {
+        newPosition = initialScreenWidth; // Reset to the right edge
+      }
+    
+      textElement.style.left = `${newPosition}px`;
+      position = newPosition;
+    };
+    const interval = setInterval(moveText, 10);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
+    <div className="banner-container d-flex align-items-center justify-content-center position-relative">
+      <div className="banner-box">
+        <h1>If you have any specific questions about</h1>
+        <button>
+          <Apointment /> Book Appointment
+        </button>
+      </div>
+
+      <div
+        id="moving-text"
+        className="moving-text"
+      >
+        {text}
+      </div>
+    </div>
+  );
+};
+
+export default Banner;
