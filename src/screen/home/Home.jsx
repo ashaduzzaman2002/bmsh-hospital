@@ -10,8 +10,8 @@ const Home = () => {
   return (
     <Layout activeLink='Home'>
       <Banner />
-      {/* <OurClient />
-      <BlogNews />
+      <OurClient />
+      {/* <BlogNews />
       <Faq /> */}
     </Layout>
   );
