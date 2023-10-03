@@ -11,7 +11,7 @@ const Layout = ({ children, title, activeLink }) => {
       </Helmet>
       <Navbar activeLink={activeLink} />
       {children}
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

@@ -7,6 +7,18 @@
   padding: 0 200px;
 }
 
+.btn-primary {
+  border-radius: 63px;
+  background: #ed3237;
+  padding: 20px 44px;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 body {
   width: 100vw !important;
   overflow-x: hidden;
@@ -15,6 +27,12 @@ body {
 @media screen and (max-width: 1690px) {
   .container {
     padding: 0 150px;
+  }
+
+
+  .btn-primary {
+    padding: 15px 34px;
+    font-size: 20px;
   }
 }
 
@@ -28,16 +46,43 @@ body {
   .container {
     padding: 0 40px;
   }
+
+  .btn-primary {
+    padding: 12px 34px;
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 1080px) {
   .container {
     padding: 0 20px;
   }
+
+  .btn-primary {
+    padding: 12px 34px;
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 792px) {
   .container {
     padding: 0 15px;
+  }
+
+  .btn-primary {
+    padding: 8px 34px;
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .btn-primary {
+    padding: 8px 34px;
+    font-size: 14px;
   }
 }

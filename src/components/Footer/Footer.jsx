@@ -13,9 +13,8 @@ const Footer = () => {
   return (
     <div
       className="position-relative footer-container p-0 w-full  "
-      style={{ marginTop: "6rem" }}
     >
-      <div className="container">
+      <div className="">
         {/* BG LOGO1 */}
         <div className="d-none d-lg-block">
           <img
@@ -37,7 +36,7 @@ const Footer = () => {
         </div>
 
         {/* floating card sm */}
-        <div
+        {/* <div
           className="d-lg-none position-absolute shadow-lg bg-white footer-floating-card p-3 mx-auto"
           style={{ transform: "translateX(5.5%)", borderRadius: "1rem" }}
         >
@@ -65,10 +64,10 @@ const Footer = () => {
           >
             Subscribe Now
           </div>
-        </div>
+        </div> */}
 
         {/* floating card lg */}
-        <div
+        {/* <div
           className="d-none d-lg-flex justify-content-between align-items-center position-absolute shadow-lg bg-white footer-floating-card p-3 mx-auto"
           style={{ transform: "translateX(5.5%)", borderRadius: "1rem" }}
         >
@@ -97,9 +96,23 @@ const Footer = () => {
               Subscribe Now
             </div>
           </div>
+        </div> */}
+
+        <div className="news-letter container">
+         <div className="news-letter-box h-100 d-flex justify-content-between align-items-center">
+         <h3>
+            <span style={{color: '#ED3237'}}>Subscribe</span> for the exclusive <br />
+            updates!
+          </h3>
+
+          <div className="d-flex gap-4">
+            <input type="text" placeholder="Enter Your Email Address" />
+            <button className="btn-primary">Subscribe Now</button>
+          </div>
+         </div>
         </div>
 
-        <div className="footer-container-card-wrapper text-white d-grid ">
+        <div className="footer-container-card-wrapper container text-white d-grid">
           <div className="left ">
             <div className="d-flex align-items-center m-0 p-0">
               <img
