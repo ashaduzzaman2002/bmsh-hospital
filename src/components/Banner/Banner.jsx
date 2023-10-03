@@ -1,10 +1,10 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Apointment } from "../../assets/svg/SVGIcon";
 import "./Banner.css";
 
 const Banner = () => {
   const text = "Bombay Maternity & Surgical Hospital";
-  const initialScreenWidth = window.innerWidth;
+  const [initialScreenWidth, setInitialScreenWidth] = useState(window.innerWidth);
 
   useEffect(() => {
     const textElement = document.getElementById("moving-text");
@@ -21,10 +21,20 @@ const Banner = () => {
       textElement.style.left = `${newPosition}px`;
       position = newPosition;
     };
+
+    const handleResize = () => {
+      setInitialScreenWidth(window.innerWidth);
+    };
+
     const interval = setInterval(moveText, 10);
 
-    return () => clearInterval(interval);
-  }, []);
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      clearInterval(interval);
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [initialScreenWidth]);
 
   return (
     <div className="banner-container d-flex align-items-center justify-content-center position-relative">
