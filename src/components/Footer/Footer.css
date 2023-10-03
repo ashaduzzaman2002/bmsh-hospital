@@ -1,6 +1,6 @@
 .footer-container {
     background-color: #002441;
-    padding: 4rem;
+    /* padding: 4rem; */
 }
 
 .footer-bmsh-logo {
@@ -21,7 +21,8 @@
 }
 
 .footer-floating-card {
-    width: 90%;
+    /* width: 90%; */
+    /* width: 100%; */
     margin-top: -2rem;
 }
 

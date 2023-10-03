@@ -1,15 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
-*{
-  font-family: 'Open Sans', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
 }
-/* @media screen and (min-width: 1750px) { */
-  .container {
-    max-width: 1920px !important;
-    padding: 0 240px;
-  }
-/* } */
+.container {
+  max-width: 1920px !important;
+  padding: 0 200px;
+}
 
 body {
-  /* overflow-x: hidden;
-  width: 100vw !important; */
+  overflow-x: hidden !important;
+  width: 100vw !important;
+}
+
+@media screen and (max-width: 1690px) {
+  .container {
+    padding: 0 150px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .container {
+    padding: 0 120px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .container {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 792px) {
+  .container {
+    padding: 0 15px;
+  }
 }

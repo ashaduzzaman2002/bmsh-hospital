@@ -1,38 +1,155 @@
-.nav-logo {
-  width: 3.5rem;
-  aspect-ratio: 1 / 1;
+.nav-link {
+  text-decoration: none;
+  color: #7f7f7f !important;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
 }
 
-.nav-text {
-  font-size: 0.8rem;
+.navbar-nav {
+  gap: 25px;
 }
 
-.nav-left p {
-  display: inline-block;
-  width: 10rem;
-}
-
-.nav-right {
-  margin: 0;
-  padding: 0;
-}
-
-
-
-
-.nav-container ul {
-  list-style: none;
-}
-
-.nav-container a {
-    text-decoration: none;
-    color: #7F7F7F;
-}
-
-.nav-container {
+.navbar {
   background-color: #fff;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 100;
+}
+
+.navbar-brand p {
+  width: 211px;
+  text-wrap: wrap;
+
+  color: var(--Black, #333);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-brand img {
+  width: 76px;
+}
+
+.activeLink {
+  color: #ED3237 !important;
+}
+
+@media screen and (max-width: 1690px) {
+  .navbar-brand img {
+    width: 60px;
+  }
+
+  .navbar-brand p {
+    width: 211px;
+  
+    font-size: 16.5px;
+  }
+
+  .nav-link {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .navbar-nav {
+    gap: 25px;
+  }
+  
+}
+
+@media screen and (max-width: 1500px) {
+  .navbar-brand img {
+    width: 50px;
+  }
+
+  .navbar-brand p {
+    width: 160px;
+  
+    font-size: 15px;
+  }
+
+  .nav-link {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .navbar-nav {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .navbar-brand img {
+    width: 45px;
+  }
+
+  .navbar-brand p {
+    width: 150px;
+  
+    font-size: 14.5px;
+  }
+
+  .nav-link {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .navbar-nav {
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .navbar-brand img {
+    width: 40px;
+  }
+
+  .navbar-brand p {
+    width: 150px;
+  
+    font-size: 14px;
+  }
+
+  .nav-link {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .navbar-nav {
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 792px) {
+  .navbar-brand img {
+    width: 44px;
+  }
+
+  .navbar-brand p {
+    width: 150px;
+    font-size: 11.726px;
+  }
+
+  .navbar-toggler-icon {
+    width: 20px;
+  }
+
+  .nav-link {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  
+  .navbar-nav {
+    gap: 0px;
+  }
 }

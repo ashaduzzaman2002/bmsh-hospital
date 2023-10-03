@@ -3,65 +3,79 @@ import HamburgerLOGO from "../../assets/Hamburger-button-Logo.svg";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
-  function openHamburgerMenu() {}
+const Navbar = ({ activeLink }) => {
+  const links = [
+    {
+      name: "Home",
+      path: "/",
+    },
+    {
+      name: "About Us",
+      path: "/about-us",
+    },
+    {
+      name: "Services",
+      path: "/services",
+    },
+    {
+      name: "Team",
+      path: "/team",
+    },
+    {
+      name: "Blogs & News",
+      path: "/blogs&news",
+    },
+    {
+      name: "Gallery",
+      path: "/gallery",
+    },
+    {
+      name: "Reviews",
+      path: "/reviews",
+    },
+    {
+      name: "Contact Us",
+      path: "/contact-us",
+    },
+  ];
   return (
-    <>
-      <div className="nav-container w-100 py-2">
-        <div className="d-flex gap-5 container justify-content-between align-items-center mx-auto nav-text">
-          <div className="nav-left d-flex gap-3 justify-content-center align-items-center ">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <Link class="navbar-brand" to="/">
+          <div className="nav-left d-flex gap-xl-3 gap-2 justify-content-center align-items-center ">
             <img className="nav-logo" src={LOGO} alt="bmsh-logo" />
-            <p className=" fw-bold m-0 p-0">
-              Bombay Maternity & Surgical Hospital
-            </p>
+            <p className="mb-0">Bombay Maternity & Surgical Hospital</p>
           </div>
-
-          <div className="nav-right m-0 fw-bold d-none d-lg-block">
-            <ul className="d-flex gap-4 m-0 p-0 ">
-              <li>
-                <Link to="/" style={{ color: "#ED3237" }}>
-                  Home
+        </Link>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            {links.map((item, i) => (
+              <li key={i} class="nav-item">
+                <Link
+                  class={`nav-link ${activeLink === item.name && "activeLink"}`}
+                  aria-current="page"
+                  to={item.path}
+                >
+                  {item.name}
                 </Link>
               </li>
-              <li>
-                <Link to="/about">About Us</Link>
-              </li>
-              <li>
-                <a href="#">Services</a>
-              </li>
-              <li>
-                <a href="#">Team</a>
-              </li>
-              <li className="d-inline-block " style={{ width: "6rem" }}>
-                <a href="#">Blogs & News</a>
-              </li>
-              <li>
-                <a href="#">Gallery</a>
-              </li>
-              <li>
-                <a href="#">Reviews</a>
-              </li>
-              <li>
-                <a href="#">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-
-          <div className="hamberger-menu d-lg-none">
-            <img
-              src={HamburgerLOGO}
-              alt="Hamburger-button-logo "
-              onClick={openHamburgerMenu}
-            />
-          </div>
+            ))}
+          </ul>
         </div>
       </div>
-    </>
+    </nav>
   );
 };
 
 export default Navbar;
-
-const HamburgerMenu = () => {
-  return <></>;
-};

@@ -4,12 +4,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-right: 240px;
+  padding-right: 200px;
+}
+
+.heading-container .text-container {
+  gap: 30px;
 }
 
 .dotted-line {
   border-bottom: 5px dotted #ff2041;
-  width: 240px;
+  width: 170px;
   opacity: 0.3;
 }
 
@@ -31,4 +35,144 @@
   display: flex;
   gap: 10px;
   align-items: center;
+}
+
+.navbar-toggler {
+  padding: 0 !important;
+}
+
+@media screen and (max-width: 1690px) {
+  .heading-container {
+    padding-right: 150px;
+  }
+
+  .dotted-line {
+    width: 120px;
+  }
+
+  .heading-container h2 {
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+  .heading-container a {
+    font-size: 18px;
+    gap: 8px;
+  }
+
+  .heading-container a svg {
+    width: 30px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .heading-container .text-container {
+    gap: 25px;
+  }
+  .heading-container {
+    padding-right: 120px;
+  }
+
+  .dotted-line {
+    width: 95px;
+  }
+
+  .heading-container h2 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .heading-container a {
+    font-size: 18px;
+    gap: 8px;
+  }
+
+  .heading-container a svg {
+    width: 30px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .heading-container .text-container {
+    gap: 15px;
+  }
+  .heading-container {
+    padding-right: 40px;
+  }
+
+  .dotted-line {
+    width: 25px;
+  }
+
+  .heading-container h2 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .heading-container a {
+    font-size: 16px;
+    gap: 6px;
+  }
+
+  .heading-container a svg {
+    width: 15px !important;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .heading-container .text-container {
+    gap: 5px;
+  }
+  .heading-container {
+    padding-right: 20px;
+  }
+
+  .dotted-line {
+    width: 15px;
+    border-width: 4px;
+  }
+
+  .heading-container h2 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .heading-container a {
+    font-size: 16px;
+    gap: 6px;
+  }
+
+  .heading-container a svg {
+    width: 15px !important;
+  }
+}
+
+@media screen and (max-width: 792px) {
+
+
+  .heading-container .text-container {
+    gap: 5px;
+  }
+  .heading-container {
+    padding-right: 15px;
+  }
+
+  .dotted-line {
+    width: 10px;
+    border-width: 3px;
+  }
+
+  .heading-container h2 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .heading-container a {
+    font-size: 14px;
+    gap: 4px;
+  }
+
+  .heading-container a svg {
+    width: 14px !important;
+  }
 }

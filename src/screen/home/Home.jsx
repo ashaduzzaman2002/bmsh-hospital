@@ -4,13 +4,15 @@ import Layout from "../../layout/Layout";
 import Banner from "../../components/Banner/Banner";
 import OurClient from "../../components/our-client/OurClient";
 import BlogNews from "../../components/blog-news/BlogNews";
+import Faq from "../../components/faq/Faq";
 
 const Home = () => {
   return (
-    <Layout>
+    <Layout activeLink='Home'>
       <Banner />
-      <OurClient />
+      {/* <OurClient />
       <BlogNews />
+      <Faq /> */}
     </Layout>
   );
 };

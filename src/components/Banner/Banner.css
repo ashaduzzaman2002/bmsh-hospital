@@ -47,3 +47,150 @@
   font-weight: 700;
   line-height: normal;
 }
+
+
+@media screen and (max-width: 1690px) {
+  .banner-box {
+    max-width: 1000px;
+    gap: 30px;
+  }
+  .banner-box h1 {
+    font-size: 70px;
+    line-height: 85px;
+  }
+  
+  .banner-box button {
+    padding: 15px 25px;
+    gap: 10px;
+    border-radius: 70px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .moving-text {
+    bottom: 0.5rem;
+    font-size: 4.5rem;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .banner-box {
+    max-width: 1000px;
+    gap: 25px;
+  }
+  .banner-box h1 {
+    font-size: 65px;
+    line-height: 75px;
+  }
+  
+  .banner-box button {
+    padding: 13px 23px;
+    gap: 10px;
+    border-radius: 70px;
+    font-size: 17px;
+    font-weight: 700;
+  }
+
+  .banner-box button svg {
+    width: 25px !important;
+  }
+
+  .moving-text {
+    bottom: 5px;
+    font-size: 3.7rem;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .banner-box {
+    max-width: 1000px;
+    gap: 20px;
+  }
+  .banner-box h1 {
+    font-size: 60px;
+    line-height: 75px;
+  }
+  
+  .banner-box button {
+    padding: 12px 20px;
+    gap: 8px;
+    border-radius: 70px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .banner-box button svg {
+    width: 23px !important;
+  }
+
+  .moving-text {
+    bottom: 5px;
+    font-size: 3.7rem;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  
+  .banner-box {
+    max-width: 80%;
+    gap: 10px;
+  }
+  .banner-box h1 {
+    font-size: 55px;
+    line-height: 70px;
+  }
+  
+  .banner-box button {
+    padding: 12px 20px;
+    gap: 8px;
+    border-radius: 70px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .banner-box button svg {
+    width: 20px !important;
+  }
+
+  .moving-text {
+    bottom: 5px;
+    font-size: 3.7rem;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 792px) {
+  .banner-container {
+    height: 50vh;
+    padding-top: 40px;
+  }
+  .banner-box {
+    max-width: 80%;
+    gap: 20px;
+  }
+  .banner-box h1 {
+    font-size: 25px;
+    line-height: normal;
+  }
+  
+  .banner-box button {
+    padding: 8px 20px;
+    gap: 8px;
+    border-radius: 70px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .banner-box button svg {
+    width: 16px !important;
+  }
+
+  .moving-text {
+    bottom: 0px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+}

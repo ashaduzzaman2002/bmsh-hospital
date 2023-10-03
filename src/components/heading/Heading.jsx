@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Heading = ({ title, path }) => {
   return (
     <div className="heading-container">
-      <div className="d-flex gap-4">
+      <div className="d-flex text-container">
         {/* <img src="/images/doted-line.svg" alt="" /> */}
         <div className="d-flex align-items-center ">
           <div className="dotted-line" />
