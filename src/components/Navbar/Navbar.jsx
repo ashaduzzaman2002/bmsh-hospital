@@ -44,7 +44,7 @@ const Navbar = ({ activeLink }) => {
         <Link class="navbar-brand" to="/">
           <div className="nav-left d-flex gap-xl-3 gap-2 justify-content-center align-items-center ">
             <img className="nav-logo" src={LOGO} alt="bmsh-logo" />
-            <p className="mb-0">Bombay Maternity & Surgical Hospital</p>
+            <p className="mb-0">Bombay Maternity & <br /> Surgical Hospital</p>
           </div>
         </Link>
         <button
