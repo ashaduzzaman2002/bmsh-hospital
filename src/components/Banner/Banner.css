@@ -49,6 +49,29 @@
   line-height: normal;
 }
 
+.banner-secondary {
+  height: 65vh !important;
+  background-position: top;
+  padding-top: 50px;
+}
+
+.banner-secondary-heading {
+  color: var(--Red, #ed3237) !important;
+}
+
+.banner-secondary p {
+  color: var(--White, #fff);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: -15px;
+}
+
+.banner-secondary p:last-child{
+  padding-left: 5px;
+  color: var(--Red, #ED3237);
+}
 
 @media screen and (max-width: 1690px) {
   .banner-box {
@@ -59,7 +82,16 @@
     font-size: 70px;
     line-height: 85px;
   }
+
+  .banner-secondary p {
+    font-size: 18px;
+    margin-top: -15px;
+  }
   
+  .banner-secondary p:last-child{
+    padding-left: 4px;
+  }
+
   .banner-box button {
     padding: 15px 25px;
     gap: 10px;
@@ -84,7 +116,9 @@
     font-size: 65px;
     line-height: 75px;
   }
-  
+
+
+
   .banner-box button {
     padding: 13px 23px;
     gap: 10px;
@@ -113,7 +147,16 @@
     font-size: 60px;
     line-height: 75px;
   }
+
+  .banner-secondary p {
+    font-size: 18px;
+    margin-top: -10px;
+  }
   
+  .banner-secondary p:last-child{
+    padding-left: 4px;
+  }
+
   .banner-box button {
     padding: 12px 20px;
     gap: 8px;
@@ -134,7 +177,6 @@
 }
 
 @media screen and (max-width: 1080px) {
-  
   .banner-box {
     max-width: 80%;
     gap: 10px;
@@ -143,7 +185,16 @@
     font-size: 55px;
     line-height: 70px;
   }
+
+  .banner-secondary p {
+    font-size: 16px;
+    margin-top: -10px;
+  }
   
+  .banner-secondary p:last-child{
+    padding-left: 4px;
+  }
+
   .banner-box button {
     padding: 12px 20px;
     gap: 8px;
@@ -176,7 +227,16 @@
     font-size: 35px;
     line-height: normal;
   }
+
+  .banner-secondary p {
+    font-size: 15px;
+    margin-top: -8px;
+  }
   
+  .banner-secondary p:last-child{
+    padding-left: 4px;
+  }
+
   .banner-box button {
     padding: 8px 20px;
     gap: 8px;
@@ -196,7 +256,6 @@
   }
 }
 
-
 @media screen and (max-width: 500px) {
   .banner-container {
     height: 50vh;
@@ -210,7 +269,16 @@
     font-size: 25px;
     line-height: normal;
   }
+
+  .banner-secondary p {
+    font-size: 14px;
+    margin-top: -15px;
+  }
   
+  .banner-secondary p:last-child{
+    padding-left: 3px;
+  }
+
   .banner-box button {
     padding: 8px 20px;
     gap: 8px;
