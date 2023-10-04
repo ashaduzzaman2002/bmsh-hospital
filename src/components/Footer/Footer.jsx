@@ -11,9 +11,7 @@ import BG_LOGO2 from "../../assets/Footer-Logo-2.svg";
 
 const Footer = () => {
   return (
-    <div
-      className="position-relative footer-container p-0 w-full  "
-    >
+    <div className="position-relative footer-container p-0 w-full  ">
       <div className="">
         {/* BG LOGO1 */}
         <div className="d-none d-lg-block">
@@ -35,81 +33,19 @@ const Footer = () => {
           />
         </div>
 
-        {/* floating card sm */}
-        {/* <div
-          className="d-lg-none position-absolute shadow-lg bg-white footer-floating-card p-3 mx-auto"
-          style={{ transform: "translateX(5.5%)", borderRadius: "1rem" }}
-        >
-          <div>
-            <p className="fw-bold">
+        <div className="news-letter container">
+          <div className="news-letter-box h-100 d-flex justify-content-between align-items-center">
+            <h3>
               <span style={{ color: "#ED3237" }}>Subscribe</span> for the
-              exclusive updates!
-            </p>
-          </div>
-          <div className="my-2 ">
-            <input
-              className="text-black  d-inline w-100 rounded-pill py-1 px-2"
-              style={{
-                color: "#D2D2D2",
-                outline: "none",
-                border: "2px solid #e5e5e5",
-              }}
-              type="email"
-              placeholder="Enter Your Email Address"
-            />
-          </div>
-          <div
-            className="text-center text-white rounded-pill py-1"
-            style={{ background: "#ED3237" }}
-          >
-            Subscribe Now
-          </div>
-        </div> */}
+              exclusive <br />
+              updates!
+            </h3>
 
-        {/* floating card lg */}
-        {/* <div
-          className="d-none d-lg-flex justify-content-between align-items-center position-absolute shadow-lg bg-white footer-floating-card p-3 mx-auto"
-          style={{ transform: "translateX(5.5%)", borderRadius: "1rem" }}
-        >
-          <div>
-            <p className="fw-bold m-0 p-0">
-              <span style={{ color: "#ED3237" }}>Subscribe</span> for the
-              exclusive updates!
-            </p>
-          </div>
-
-          <div
-            className="d-flex rounded-pill"
-            style={{ border: "2px solid #e5e5e5" }}
-          >
-            <input
-              className="text-black  d-inline w-100 rounded-pill py-1 px-2"
-              style={{ color: "#D2D2D2", outline: "none", border: "none" }}
-              type="email"
-              placeholder="Enter Your Email Address"
-            />
-            <div
-              className="text-center text-white rounded-pill py-2 "
-              style={{ background: "#ED3237", width: "15rem" }}
-            >
-              {" "}
-              Subscribe Now
+            <div className="d-flex gap-4 news-btn">
+              <input type="text" placeholder="Enter Your Email Address" />
+              <button className="btn-primary">Subscribe Now</button>
             </div>
           </div>
-        </div> */}
-
-        <div className="news-letter container">
-         <div className="news-letter-box h-100 d-flex justify-content-between align-items-center">
-         <h3>
-            <span style={{color: '#ED3237'}}>Subscribe</span> for the exclusive <br />
-            updates!
-          </h3>
-
-          <div className="d-flex gap-4">
-            <input type="text" placeholder="Enter Your Email Address" />
-            <button className="btn-primary">Subscribe Now</button>
-          </div>
-         </div>
         </div>
 
         <div className="footer-container-card-wrapper container text-white d-grid">
@@ -146,7 +82,7 @@ const Footer = () => {
 
           <div className="middle ">
             <h5>Department</h5>
-            <ul>
+            <ul className="mt-4">
               <li>GENRAL SURGERY DEPARTMENT</li>
               <li>EAR NOSE AND THROAT</li>
               <li>OBSTETRIC AND GYNECOLOGY</li>
@@ -181,8 +117,8 @@ const Footer = () => {
 
         <hr className="text-white" />
 
-        <div>
-          <p className="text-white text-center pb-4 m-0">
+        <div className="d-flex justify-content-center">
+          <p className="text-white footer-text text-center pb-4 m-0">
             All Rights Reserved | Designed & eveloped by Tapti Technology
           </p>
         </div>
