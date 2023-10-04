@@ -3,34 +3,32 @@ import Heading from "../heading/Heading";
 import "./blog-news.css";
 import { Calendar, User } from "../../assets/svg/SVGIcon";
 
-const BlogNews = () => {
+const BlogNews = ({ data }) => {
   return (
     <div>
-      <Heading title={"Blogs & News"} path="/blog-news" />
       <div className="blog-news-container">
         <div className="container">
           <div className="blog-row">
             <div>
               <img
                 className="w-100 h-100 object-fit-cover"
-                src="/images/blog-1.png"
+                src={data.image}
                 alt=""
               />
             </div>
 
-            <div className="h-100 d-flex align-items-center">
+            <div className="h-100 d-flex blog-text-box align-items-center">
               <div>
-                <h2>Educational Seminar at BNI</h2>
-                <h4>Educational Seminar at BNI</h4>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book.
-                </p>
+                <h2>{data.title}</h2>
+                <div className="d-flex flex-column gap-2 blog-para">
+                  {data?.description?.map((item, i) => (
+                    <p className="mb-0" key={i}>
+                      {item}
+                    </p>
+                  ))}
+                </div>
 
-                <div className="d-flex">
+                <div className="d-flex blog-footer">
                   <div>
                     <Calendar /> <small>10.05.2021</small>
                   </div>

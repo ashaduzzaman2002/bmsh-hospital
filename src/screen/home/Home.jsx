@@ -5,15 +5,17 @@ import Banner from "../../components/Banner/Banner";
 import OurClient from "../../components/our-client/OurClient";
 import BlogNews from "../../components/blog-news/BlogNews";
 import Faq from "../../components/faq/Faq";
-import { ourClient } from "../../data/db";
+import { blogNews, faq, ourClient } from "../../data/db";
+import Heading from "../../components/heading/Heading";
 
 const Home = () => {
   return (
     <Layout activeLink='Home'>
       <Banner />
       <OurClient ourClient={ourClient} />
-      {/* <BlogNews />
-      <Faq /> */}
+      <Heading title={"Blogs & News"} path="/blogs&news" />
+      <BlogNews data={blogNews[0]} />
+      <Faq faq={faq} />
     </Layout>
   );
 };

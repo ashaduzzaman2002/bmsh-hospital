@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "../components/Navbar/Navbar";
 import { Helmet } from "react-helmet";
 import Footer from "../components/Footer/Footer";
 
 const Layout = ({ children, title, activeLink }) => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+  
+  useEffect(() => {
+    scrollToTop();
+  }, []);
   return (
     <>
       <Helmet>

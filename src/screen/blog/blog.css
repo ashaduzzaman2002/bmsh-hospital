@@ -1,0 +1,23 @@
+.blognews-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px !important;
+}
+
+@media screen and (max-width: 1080px) {
+  .blognews-container {
+    gap: 30px !important;
+  }
+}
+
+@media screen and (max-width: 792px) {
+  .blognews-container {
+    gap: 20px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .blognews-container {
+    gap: 15px !important;
+  }
+}
