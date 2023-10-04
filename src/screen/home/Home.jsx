@@ -5,12 +5,13 @@ import Banner from "../../components/Banner/Banner";
 import OurClient from "../../components/our-client/OurClient";
 import BlogNews from "../../components/blog-news/BlogNews";
 import Faq from "../../components/faq/Faq";
+import { ourClient } from "../../data/db";
 
 const Home = () => {
   return (
     <Layout activeLink='Home'>
       <Banner />
-      {/* <OurClient /> */}
+      <OurClient ourClient={ourClient} />
       {/* <BlogNews />
       <Faq /> */}
     </Layout>
