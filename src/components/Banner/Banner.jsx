@@ -40,7 +40,7 @@ const Banner = () => {
     <div className="banner-container d-flex align-items-center justify-content-center position-relative">
       <div className="banner-box">
         <h1>If you have any specific questions about</h1>
-        <button>
+        <button className="btn-primary">
           <Apointment /> Book Appointment
         </button>
       </div>

@@ -33,22 +33,6 @@
   line-height: 88px;
 }
 
-.banner-box button {
-  display: flex;
-  padding: 17px 30px;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  border-radius: 70px;
-  background: var(--Red, #ed3237);
-  border: none;
-  color: var(--White, #fff);
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
 .banner-secondary {
   height: 65vh !important;
   background-position: top;
@@ -68,9 +52,9 @@
   margin-top: -15px;
 }
 
-.banner-secondary p:last-child{
+.banner-secondary p:last-child {
   padding-left: 5px;
-  color: var(--Red, #ED3237);
+  color: var(--Red, #ed3237);
 }
 
 @media screen and (max-width: 1690px) {
@@ -87,17 +71,9 @@
     font-size: 18px;
     margin-top: -15px;
   }
-  
-  .banner-secondary p:last-child{
-    padding-left: 4px;
-  }
 
-  .banner-box button {
-    padding: 15px 25px;
-    gap: 10px;
-    border-radius: 70px;
-    font-size: 18px;
-    font-weight: 700;
+  .banner-secondary p:last-child {
+    padding-left: 4px;
   }
 
   .moving-text {
@@ -115,16 +91,6 @@
   .banner-box h1 {
     font-size: 65px;
     line-height: 75px;
-  }
-
-
-
-  .banner-box button {
-    padding: 13px 23px;
-    gap: 10px;
-    border-radius: 70px;
-    font-size: 17px;
-    font-weight: 700;
   }
 
   .banner-box button svg {
@@ -152,17 +118,9 @@
     font-size: 18px;
     margin-top: -10px;
   }
-  
-  .banner-secondary p:last-child{
-    padding-left: 4px;
-  }
 
-  .banner-box button {
-    padding: 12px 20px;
-    gap: 8px;
-    border-radius: 70px;
-    font-size: 16px;
-    font-weight: 700;
+  .banner-secondary p:last-child {
+    padding-left: 4px;
   }
 
   .banner-box button svg {
@@ -190,17 +148,9 @@
     font-size: 16px;
     margin-top: -10px;
   }
-  
-  .banner-secondary p:last-child{
-    padding-left: 4px;
-  }
 
-  .banner-box button {
-    padding: 12px 20px;
-    gap: 8px;
-    border-radius: 70px;
-    font-size: 15px;
-    font-weight: 700;
+  .banner-secondary p:last-child {
+    padding-left: 4px;
   }
 
   .banner-box button svg {
@@ -232,17 +182,9 @@
     font-size: 15px;
     margin-top: -8px;
   }
-  
-  .banner-secondary p:last-child{
-    padding-left: 4px;
-  }
 
-  .banner-box button {
-    padding: 8px 20px;
-    gap: 8px;
-    border-radius: 70px;
-    font-size: 14px;
-    font-weight: 700;
+  .banner-secondary p:last-child {
+    padding-left: 4px;
   }
 
   .banner-box button svg {
@@ -274,17 +216,9 @@
     font-size: 14px;
     margin-top: -15px;
   }
-  
-  .banner-secondary p:last-child{
-    padding-left: 3px;
-  }
 
-  .banner-box button {
-    padding: 8px 20px;
-    gap: 8px;
-    border-radius: 70px;
-    font-size: 14px;
-    font-weight: 700;
+  .banner-secondary p:last-child {
+    padding-left: 3px;
   }
 
   .banner-box button svg {

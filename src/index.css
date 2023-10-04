@@ -17,6 +17,10 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
 
 body {
