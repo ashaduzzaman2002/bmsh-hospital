@@ -7,11 +7,15 @@ import BlogNews from "../../components/blog-news/BlogNews";
 import Faq from "../../components/faq/Faq";
 import { blogNews, faq, ourClient } from "../../data/db";
 import Heading from "../../components/heading/Heading";
+import OurService from "../../components/our-service/OurService";
 
 const Home = () => {
+  
   return (
     <Layout activeLink='Home'>
       <Banner />
+      <Heading title={"Our Service"} path="/services" />
+      <OurService />
       <OurClient ourClient={ourClient} />
       <Heading title={"Blogs & News"} path="/blogs&news" />
       <BlogNews data={blogNews[0]} />

@@ -21,7 +21,7 @@ const Faq = ({ faq }) => {
         <div>
           <div class="" id="accordionExample">
             {faq?.map((item, i) => (
-              <div class="accordion-item">
+              <div key={i} class="accordion-item">
                 <h2
                   class={`accordion-header ${i === active && "activeBtn"}`}
                   id={"heading" + i}
