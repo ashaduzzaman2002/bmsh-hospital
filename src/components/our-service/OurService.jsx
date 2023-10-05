@@ -4,6 +4,7 @@ import { services } from "../../data/db";
 import { Building, Openning, RightArrow } from "../../assets/svg/SVGIcon";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import { Link } from "react-router-dom";
 
 const OurService = () => {
   const [progress, setProgress] = useState(0);
@@ -59,9 +60,9 @@ const OurService = () => {
             <p className="mb-0">{item.description}</p>
 
             <div>
-              <button>
+              <Link to={`/services/${item.slug}`}>
                 Read More <RightArrow />
-              </button>
+              </Link>
             </div>
 
             <div className="building">

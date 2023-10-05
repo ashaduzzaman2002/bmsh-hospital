@@ -49,10 +49,10 @@
   line-height: 28px; /* 155.556% */
 }
 
-.our-service-card button {
+.our-service-card a {
   background: none;
   border: none;
-
+  text-decoration: none;
   color: #000;
   font-size: 20px;
   font-style: normal;
@@ -173,12 +173,12 @@
     line-height: 18px; /* 155.556% */
   }
 
-  .our-service-card button {
+  .our-service-card a {
     font-size: 14px;
     gap: 10px;
   }
 
-  .our-service-card button svg {
+  .our-service-card a svg {
     width: 16px;
     height: 16px;
   }
