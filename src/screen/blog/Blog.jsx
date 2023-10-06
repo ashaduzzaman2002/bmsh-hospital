@@ -5,6 +5,7 @@ import Heading from "../../components/heading/Heading";
 import BlogNews from "../../components/blog-news/BlogNews";
 import "./blog.css";
 import { blogNews } from "../../data/db";
+import ContactComponent from "../../components/contact-us/ContactComponent";
 
 const Blog = () => {
   return (
@@ -17,6 +18,10 @@ const Blog = () => {
           <BlogNews key={i} data={item} />
         ))}
       </div>
+
+
+      <Heading title={"Contact Us"}/>
+      <ContactComponent />
     </Layout>
   );
 };

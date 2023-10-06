@@ -154,3 +154,24 @@ export const services = [
     ],
   },
 ];
+
+export const gallery = [
+  {
+    image: "/images/gallery-1.png",
+  },
+  {
+    image: "/images/gallery-2.png",
+  },
+  {
+    image: "/images/gallery-3.png",
+  },
+  {
+    image: "/images/gallery-4.png",
+  },
+  {
+    image: "/images/gallery-5.png",
+  },
+  {
+    image: "/images/gallery-6.png",
+  },
+];
