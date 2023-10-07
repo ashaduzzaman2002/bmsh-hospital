@@ -46,6 +46,7 @@
   line-height: 2rem; /* 177.778% */
   padding: 0.5rem 1rem;
   background: transparent;
+  outline: none;
 }
 
 .contact-container-wrapper textarea {
@@ -59,6 +60,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 2rem; /* 177.778% */
+  outline: none;
 }
 
 .contact-container-wrapper .btn-primary {
