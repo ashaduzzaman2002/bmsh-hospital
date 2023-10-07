@@ -1,0 +1,138 @@
+.contact-container-wrapper {
+  position: relative;
+}
+
+.contact-container-top::after {
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: linear-gradient(74deg, #c3d7e8 -26167%, #e1f0fa 40211.12%);
+  background-size: cover;
+  position: absolute;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.contact-container-wrapper .heading {
+  color: var(--Black, #333);
+  /* H3 */
+  font-family: Open Sans;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.contact-container-wrapper .text {
+  color: var(--Gray, #7f7f7f);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem; /* 160% */
+}
+
+.contact-container-wrapper input {
+  border-radius: 0.3125rem;
+  border: 1px solid #d0d0d0;
+  color: var(--Gray, #7f7f7f);
+  font-family: Open Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem; /* 177.778% */
+  padding: 0.5rem 1rem;
+  background: transparent;
+}
+
+.contact-container-wrapper textarea {
+  background: transparent;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3125rem;
+  border: 1px solid #d0d0d0;
+  color: var(--Gray, #7f7f7f);
+  font-family: Open Sans;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem; /* 177.778% */
+}
+
+.contact-container-wrapper .btn-primary {
+  padding: 0.5rem 0.9rem;
+}
+
+.contact-container .top {
+  width: 75%;
+}
+
+.contact-container .bottom {
+  width: 50%;
+}
+
+@media screen and (max-width: 1690px) {
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1250px) {
+}
+
+@media screen and (max-width: 1080px) {
+}
+
+@media screen and (max-width: 792px) {
+  .contact-container-wrapper .heading {
+    color: var(--Black, #333);
+    font-family: Open Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .contact-container-wrapper .text {
+    color: var(--Gray, #7f7f7f);
+    font-family: Open Sans;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.125rem; /* 150% */
+  }
+
+  .contact-container-wrapper input {
+    color: var(--Gray, #7f7f7f);
+    font-family: Open Sans;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 0.3125rem;
+    border: 1px solid #e7e7e7;
+  }
+
+  .contact-container-wrapper textarea {
+    color: var(--Gray, #7f7f7f);
+    font-family: Open Sans;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 0.3125rem;
+    border: 1px solid #e7e7e7;
+  }
+  .contact-container .top {
+    width: 100%;
+  }
+
+  .contact-container .bottom {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+}
