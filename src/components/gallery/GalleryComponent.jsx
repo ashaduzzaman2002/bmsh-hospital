@@ -31,7 +31,7 @@ const GalleryComponent = () => {
 
   return (
     <div>
-      <div className="bg-danger position-relative">
+      <div className="position-relative">
         <Swiper  spaceBetween={0} slidesPerView={4.5} onSwiper={setSwiper1}>
           {gallery.map((item, i) => (
             <SwiperSlide>
@@ -58,7 +58,7 @@ const GalleryComponent = () => {
         </button>
       </div>
 
-      <div className="bg-danger position-relative">
+      <div className="position-relative">
         <Swiper spaceBetween={0} slidesPerView={4.5} onSwiper={setSwiper2}>
           {gallery.reverse().map((item, i) => (
             <SwiperSlide>

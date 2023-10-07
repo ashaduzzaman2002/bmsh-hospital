@@ -6,6 +6,8 @@ import Blog from './screen/blog/Blog'
 import ServicesDetails from './screen/services/ServicesDetails'
 import ContactUs from './screen/contact-us/ContactUs'
 import Review from './screen/review/Review'
+import Gallery from './screen/gallery/Gallery'
+import Team from './screen/team/Team'
 
 function App() {
 
@@ -19,6 +21,8 @@ function App() {
         <Route path='/blogs&news' element={<Blog />} />
         <Route path='/contact-us' element={<ContactUs />} />
         <Route path='/reviews' element={<Review />} />
+        <Route path='/gallery' element={<Gallery />} />
+        <Route path='/team' element={<Team />} />
       </Routes>
     </>
   )

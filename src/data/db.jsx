@@ -194,3 +194,35 @@ export const gallery = [
     image: "/images/gallery-12.png",
   },
 ];
+
+export const team = [
+  {
+    image: "/images/team-1.png",
+    title: "General Medicine and Intensive Car",
+    name: "Dr Alpesh Zala",
+    specialist: "physician",
+    desc: "He is a full-time physician and intensivist in Bombay Multi Speciality Hospital. He has good ICU experience from Apollo, CIMS hospital Ahmedabad.Cardiac and critical care experience from Wockheart Hospital Surat. He worked as a physician with ONGC Surat.",
+  },
+
+  {
+    image: "/images/team-2.png",
+    title: "General Medicine and Intensive Car",
+    name: "Dr Alpesh Zala",
+    specialist: "physician",
+    desc: "He is a full-time physician and intensivist in Bombay Multi Speciality Hospital. He has good ICU experience from Apollo, CIMS hospital Ahmedabad.Cardiac and critical care experience from Wockheart Hospital Surat. He worked as a physician with ONGC Surat.",
+  },
+  {
+    image: "/images/team-3.png",
+    title: "General Medicine and Intensive Car",
+    name: "Dr Alpesh Zala",
+    specialist: "physician",
+    desc: "He is a full-time physician and intensivist in Bombay Multi Speciality Hospital. He has good ICU experience from Apollo, CIMS hospital Ahmedabad.Cardiac and critical care experience from Wockheart Hospital Surat. He worked as a physician with ONGC Surat.",
+  },
+  {
+    image: "/images/team-4.png",
+    title: "General Medicine and Intensive Car",
+    name: "Dr Alpesh Zala",
+    specialist: "physician",
+    desc: "He is a full-time physician and intensivist in Bombay Multi Speciality Hospital. He has good ICU experience from Apollo, CIMS hospital Ahmedabad.Cardiac and critical care experience from Wockheart Hospital Surat. He worked as a physician with ONGC Surat.",
+  },
+];
