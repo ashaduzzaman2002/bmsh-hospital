@@ -1,0 +1,47 @@
+.gallery-card img {
+  object-fit: cover;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.next-btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 10;
+  width: calc(20% - (20% / 2.25));
+  border: none;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.prev-btn {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 10;
+  width: calc(20% - (20% / 2.25));
+  border: none;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+
+@media screen and (max-width: 1450px) {
+    .next-btn svg, .prev-btn svg {
+        width: 60px;
+        height: 40px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .next-btn svg, .prev-btn svg {
+        width: 50px;
+        height: 30px;
+    }
+}
+@media screen and (max-width: 560px) {
+    .next-btn svg, .prev-btn svg {
+        width: 9.4px;
+height: 16px;
+    }
+}

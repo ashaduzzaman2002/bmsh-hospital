@@ -10,7 +10,7 @@ const Layout = ({ children, title, activeLink }) => {
       behavior: "smooth",
     });
   };
-  
+
   useEffect(() => {
     scrollToTop();
   }, []);

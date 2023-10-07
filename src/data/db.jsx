@@ -174,4 +174,23 @@ export const gallery = [
   {
     image: "/images/gallery-6.png",
   },
+  {
+    image: "/images/gallery-7.jpeg",
+  },
+
+  {
+    image: "/images/gallery-8.png",
+  },
+  {
+    image: "/images/gallery-9.png",
+  },
+  {
+    image: "/images/gallery-10.png",
+  },
+  {
+    image: "/images/gallery-11.png",
+  },
+  {
+    image: "/images/gallery-12.png",
+  },
 ];
