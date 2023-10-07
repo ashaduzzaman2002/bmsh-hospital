@@ -61,6 +61,14 @@
   font-weight: 500;
   line-height: 2rem; /* 177.778% */
   outline: none;
+  resize: none;
+  height: 9rem;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .contact-container-wrapper .btn-primary {
@@ -126,6 +134,7 @@
     line-height: normal;
     border-radius: 0.3125rem;
     border: 1px solid #e7e7e7;
+    height: 2.5rem;
   }
   .contact-container .top {
     width: 100%;
