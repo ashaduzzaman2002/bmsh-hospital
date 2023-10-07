@@ -99,7 +99,7 @@ const OurService = () => {
         </div>
       </div>
 
-      <div>
+      <div className="mobile-view">
         <Swiper
           spaceBetween={slideGap}
           slidesPerView={1}
@@ -117,9 +117,9 @@ const OurService = () => {
                 <p className="mb-0">{item.description}</p>
 
                 <div>
-                  <button>
+                  <Link to={`/services/${item.slug}`}>
                     Read More <RightArrow />
-                  </button>
+                  </Link>
                 </div>
 
                 <div className="building">

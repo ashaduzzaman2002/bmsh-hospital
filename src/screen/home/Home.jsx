@@ -9,6 +9,7 @@ import { blogNews, faq, ourClient } from "../../data/db";
 import Heading from "../../components/heading/Heading";
 import OurService from "../../components/our-service/OurService";
 import GalleryComponent from "../../components/gallery/GalleryComponent";
+import ContactComponent from "../../components/contact-us/ContactComponent";
 
 const Home = () => {
   
@@ -21,6 +22,8 @@ const Home = () => {
       <Heading title={"Blogs & News"} path="/blogs&news" />
       <BlogNews data={blogNews[0]} />
       <Faq faq={faq} />
+      <Heading title={"Contact Us"} path="/gallery" />
+      <ContactComponent />
       <Heading title={"Gallery"} path="/gallery" />
       <GalleryComponent />
     </Layout>
