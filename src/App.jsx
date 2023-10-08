@@ -8,6 +8,7 @@ import ContactUs from './screen/contact-us/ContactUs'
 import Review from './screen/review/Review'
 import Gallery from './screen/gallery/Gallery'
 import Team from './screen/team/Team'
+import TeamDetails from './screen/team/TeamDetails'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Route path='/reviews' element={<Review />} />
         <Route path='/gallery' element={<Gallery />} />
         <Route path='/team' element={<Team />} />
+        <Route path='/team/:slug' element={<TeamDetails />} />
       </Routes>
     </>
   )

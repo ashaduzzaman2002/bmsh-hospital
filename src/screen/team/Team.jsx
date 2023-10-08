@@ -4,6 +4,7 @@ import BannerSecondary from "../../components/Banner/BannerSecondary";
 import Heading from "../../components/heading/Heading";
 import { team } from "../../data/db";
 import "./team.css";
+import { Link } from "react-router-dom";
 
 const Team = () => {
   return (
@@ -14,7 +15,7 @@ const Team = () => {
       <div className="container">
         <div className="team-container">
           {team.map((item, i) => (
-            <div className="team-card">
+            <Link to={`/team/${item.slug}`} className="team-card">
               <div>
                 <img src={item.image} alt="" />
               </div>
@@ -26,7 +27,7 @@ const Team = () => {
 
                 <p className="mb-0">{item.desc}</p>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
