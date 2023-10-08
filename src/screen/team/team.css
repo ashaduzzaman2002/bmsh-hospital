@@ -1,5 +1,58 @@
-.team-card{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+.team-container {
+  border: 1px solid rgba(0, 114, 187, 0.03);
+  background-color: #f7fbfd;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.team-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.team-card img {
+  width: 100%;
+}
+
+.team-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.team-text h2 {
+  color: var(--Red, #ed3237);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.team-text h3 {
+  color: var(--Black, #333);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 30px;
+}
+
+.team-text h4 {
+  color: var(--Gray, #7f7f7f);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.team-text p {
+  margin-top: 20px;
+  color: var(--Gray, #7f7f7f);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 155.556% */
 }

@@ -3,7 +3,7 @@ import Layout from "../../layout/Layout";
 import BannerSecondary from "../../components/Banner/BannerSecondary";
 import Heading from "../../components/heading/Heading";
 import { team } from "../../data/db";
-import './team.css'
+import "./team.css";
 
 const Team = () => {
   return (
@@ -11,22 +11,24 @@ const Team = () => {
       <BannerSecondary title={"Team"} />
       <Heading title={"Our Team"} />
 
-      <div className="container team-container">
-        {team.map((item, i) => (
-          <div className="team-card">
-            <div>
-              <img src={item.image} alt="" />
-            </div>
+      <div className="container">
+        <div className="team-container">
+          {team.map((item, i) => (
+            <div className="team-card">
+              <div>
+                <img src={item.image} alt="" />
+              </div>
 
-            <div>
-              <h2>{item.title}</h2>
-              <h4>{item.name}</h4>
-              <p>{item.specialist}</p>
+              <div className="team-text">
+                <h2 className="mb-0">{item.title}</h2>
+                <h3 className="mb-0">{item.name}</h3>
+                <h4 className="mb-0">{item.specialist}</h4>
 
-              <p>{item.desc}</p>
+                <p className="mb-0">{item.desc}</p>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </Layout>
   );
