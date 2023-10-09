@@ -79,6 +79,15 @@ const ReviewsComponent = () => {
           </button>
           <div />
         </div>
+
+        <div className="mobile-arrow">
+          <button onClick={handlePrev}>
+            <PrevArrow />
+          </button>
+          <button onClick={handleNext}>
+            <NextArrow />
+          </button>
+        </div>
       </div>
     </div>
   );
