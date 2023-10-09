@@ -107,7 +107,7 @@
 }
 
 .mobile-arrow {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   margin-top: 15px;
@@ -248,6 +248,10 @@
   .review-next-btn,
   .review-prev-btn {
     display: none;
+  }
+
+  .mobile-arrow {
+    display: flex;
   }
 
   .review-container {
