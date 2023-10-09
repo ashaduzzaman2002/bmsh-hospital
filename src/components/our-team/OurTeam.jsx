@@ -3,6 +3,7 @@ import Swiper from "swiper";
 
 import "swiper/css";
 import "./our-team.css";
+import { LeftArrow, RightArrow } from "../../assets/svg/SVGIcon";
 
 class Slider extends React.Component {
   componentDidMount() {
@@ -21,7 +22,20 @@ class Slider extends React.Component {
   render() {
     return (
       <div className="container">
-        <div className="slider-container">
+        <div className="team-container">
+          <div className="team-text-box">
+            <h3 className="mb-0">General Medicine and Intensive Care</h3>
+            <p className="mb-0">
+              He is a full-time physician and intensivist in Bombay Multi
+              Speciality Hospital. He has good ICU experience from Apollo, CIMS
+              hospital Ahmedabad.Cardiac and critical care experience from
+              Wockheart Hospital Surat. He worked as a physician with ONGC
+              Surat.
+            </p>
+
+            <h4 className="mb-0">Dr Alpesh Zala</h4>
+          </div>
+
           <div className="swiper-container">
             <div className="swiper-wrapper">
               {this.props.items.map((item, index) => (
@@ -40,31 +54,3 @@ class Slider extends React.Component {
 }
 
 export default Slider;
-
-// import React from "react";
-// import "swiper/css";
-// import { Swiper, SwiperSlide } from "swiper/react";
-
-// const OurTeam = ({ items }) => {
-//   return (
-//     <div className="container">
-//       <div className="swiper-container">
-//         <Swiper
-//           spaceBetween={30}
-//           slidesPerView={3}
-//           loop={true}
-//         >
-//           {items.map((item, i) => (
-//             <SwiperSlide>
-//               <div >
-//                 <img className="w-100" src={item.image} alt="" />
-//               </div>
-//             </SwiperSlide>
-//           ))}
-//         </Swiper>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default OurTeam;

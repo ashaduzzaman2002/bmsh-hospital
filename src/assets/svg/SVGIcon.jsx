@@ -2782,10 +2782,47 @@ export const Qoute = () => (
 );
 
 export const ReviewBorder = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="664" height="423" viewBox="0 0 664 423" fill="none">
-  <path d="M2 178.094V406C2 414.284 8.71573 421 17 421H647C655.284 421 662 414.284 662 406V17C662 8.71572 655.284 2 647 2H17C8.71571 2 2 8.71573 2 17V60.0074" stroke="#E2E2E2" stroke-width="3"/>
-</svg>
-)
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="664"
+    height="423"
+    viewBox="0 0 664 423"
+    fill="none"
+  >
+    <path
+      d="M2 178.094V406C2 414.284 8.71573 421 17 421H647C655.284 421 662 414.284 662 406V17C662 8.71572 655.284 2 647 2H17C8.71571 2 2 8.71573 2 17V60.0074"
+      stroke="#E2E2E2"
+      stroke-width="3"
+    />
+  </svg>
+);
+
+export const LeftArrow = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="30"
+    height="30"
+    viewBox="0 0 30 30"
+    fill="none"
+  >
+    <g clip-path="url(#clip0_121_4605)">
+      <path
+        d="M0.34371 14.1705L0.344767 14.1694L6.46805 8.07562C6.92678 7.61912 7.66875 7.62082 8.12537 8.07961C8.58193 8.53834 8.58018 9.28031 8.12144 9.73687L4.01027 13.8281H28.8281C29.4754 13.8281 30 14.3528 30 15C30 15.6472 29.4754 16.1719 28.8281 16.1719H4.01033L8.12139 20.2631C8.58012 20.7197 8.58187 21.4617 8.12531 21.9204C7.66869 22.3792 6.92666 22.3808 6.46799 21.9244L0.344707 15.8306L0.343651 15.8295C-0.115313 15.3714 -0.113848 14.627 0.34371 14.1705Z"
+        fill="black"
+      />
+    </g>
+    <defs>
+      <clipPath id="clip0_121_4605">
+        <rect
+          width="30"
+          height="30"
+          fill="white"
+          transform="matrix(-1 0 0 1 30 0)"
+        />
+      </clipPath>
+    </defs>
+  </svg>
+);
 
 export {
   Apointment,

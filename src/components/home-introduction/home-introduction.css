@@ -90,6 +90,10 @@
   display: none;
 }
 
+.single-dot {
+  display: none;
+}
+
 @media screen and (max-width: 1690px) {
   .intro-bottom-container {
     margin-top: 40px;
@@ -446,5 +450,6 @@
   .single-dot {
     position: absolute;
     left: 10px;
+    display: block;
   }
 }
