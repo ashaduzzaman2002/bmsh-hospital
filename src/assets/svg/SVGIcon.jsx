@@ -2573,6 +2573,8 @@ export const Stethoscope = () => (
   </svg>
 );
 
+
+
 export const WhyChooseUsIcon = () => (
   <svg
     width="90"
@@ -2782,10 +2784,39 @@ export const Qoute = () => (
 );
 
 export const ReviewBorder = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="664" height="423" viewBox="0 0 664 423" fill="none">
-  <path d="M2 178.094V406C2 414.284 8.71573 421 17 421H647C655.284 421 662 414.284 662 406V17C662 8.71572 655.284 2 647 2H17C8.71571 2 2 8.71573 2 17V60.0074" stroke="#E2E2E2" stroke-width="3"/>
-</svg>
-)
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="664"
+    height="423"
+    viewBox="0 0 664 423"
+    fill="none"
+  >
+    <path
+      d="M2 178.094V406C2 414.284 8.71573 421 17 421H647C655.284 421 662 414.284 662 406V17C662 8.71572 655.284 2 647 2H17C8.71571 2 2 8.71573 2 17V60.0074"
+      stroke="#E2E2E2"
+      stroke-width="3"
+    />
+  </svg>
+);
+
+export const ProgressBarSm = () => (
+  <svg
+    width="16"
+    height="145"
+    viewBox="0 0 16 145"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <rect x="7" y="20" width="2" height="46" fill="#0072BB" />
+    <rect x="7" y="81" width="2" height="46" fill="#0072BB" />
+    <circle cx="8" cy="12.5" r="7.25" stroke="#0072BB" stroke-width="1.5" />
+    <circle cx="8.0002" cy="12.4997" r="4.57143" fill="#0072BB" />
+    <circle cx="8" cy="73" r="7.25" stroke="#0072BB" stroke-width="1.5" />
+    <circle cx="8.0002" cy="72.9997" r="4.57143" fill="#0072BB" />
+    <circle cx="8" cy="133.5" r="7.25" stroke="#0072BB" stroke-width="1.5" />
+    <circle cx="8.0002" cy="133.5" r="4.57143" fill="#0072BB" />
+  </svg>
+);
 
 export {
   Apointment,
