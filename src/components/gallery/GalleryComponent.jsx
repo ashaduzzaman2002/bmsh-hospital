@@ -47,7 +47,7 @@ const GalleryComponent = () => {
           ))}
         </Swiper>
 
-        <button className="next-btn" onClick={handleNext}>
+        <button className="next-btn" onClick={handlePrev}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="50"
@@ -79,7 +79,7 @@ const GalleryComponent = () => {
           ))}
         </Swiper>
 
-        <button className="prev-btn" onClick={handlePrev}>
+        <button className="prev-btn" onClick={handleNext}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="50"
