@@ -5,7 +5,7 @@ const HomeIntroduction = () => {
   return (
     <div>
       <div className="container">
-        <p className="mb-0">
+        <p className="mb-0 intro-desc">
           The best-known type of hospital is the general hospital, which
           typically has an emergency department to treat urgent health problems
           ranging from fire and accident victims to a heart attack. A district
@@ -75,13 +75,16 @@ const HomeIntroduction = () => {
             </div>
           </div>
 
-          <div>
-            <img src="/images/intro-img-1.png" alt="" />
+          <div className="intro-image-1">
+          <img className="intro-dot-left" src="/images/dot.svg" alt="" />
+            <img className="intro-left-img" src="/images/intro-img-1.png" alt="" />
           </div>
         </div>
 
-        <div className="introduction-second-img">
-          <img src="/images/intro-img-2.png" alt="" />
+        <div className="intro-second-img">
+
+          <img className="intro-dot-right" src="/images/dot.svg" alt="" />
+          <img className="intro-right-img" src="/images/intro-img-2.png" alt="" />
         </div>
       </div>
     </div>
