@@ -32,10 +32,15 @@ const GalleryComponent = () => {
   return (
     <div>
       <div className="position-relative">
-        <Swiper  spaceBetween={0} slidesPerView={4.5} onSwiper={setSwiper1}>
+        <Swiper
+          loop={true}
+          spaceBetween={0}
+          slidesPerView={4.5}
+          onSwiper={setSwiper1}
+        >
           {gallery.map((item, i) => (
-            <SwiperSlide>
-              <div key={i} className="gallery-card">
+            <SwiperSlide key={i}>
+              <div className="gallery-card">
                 <img src={item.image} alt="" />
               </div>
             </SwiperSlide>
@@ -59,10 +64,15 @@ const GalleryComponent = () => {
       </div>
 
       <div className="position-relative">
-        <Swiper spaceBetween={0} slidesPerView={4.5} onSwiper={setSwiper2}>
+        <Swiper
+          loop={true}
+          spaceBetween={0}
+          slidesPerView={4.5}
+          onSwiper={setSwiper2}
+        >
           {gallery.reverse().map((item, i) => (
-            <SwiperSlide>
-              <div key={i} className="gallery-card">
+            <SwiperSlide key={i}>
+              <div className="gallery-card">
                 <img src={item.image} alt="" />
               </div>
             </SwiperSlide>

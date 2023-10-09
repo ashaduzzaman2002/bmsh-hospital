@@ -11,17 +11,19 @@ import OurService from "../../components/our-service/OurService";
 import GalleryComponent from "../../components/gallery/GalleryComponent";
 import ContactComponent from "../../components/contact-us/ContactComponent";
 import WhyChooseUs from "../../components/why-choose-us/WhyChooseUs";
+import ReviewsComponent from "../../components/reviews-component/ReviewsComponent";
 
 const Home = () => {
-  
   return (
-    <Layout activeLink='Home'>
+    <Layout activeLink="Home">
       <Banner />
       <Heading title={"Our Service"} path="/services" />
       <OurService />
       <OurClient ourClient={ourClient} />
-      <Heading title={'Why Choose Us'} />
+      <Heading title={"Why Choose Us"} />
       <WhyChooseUs />
+      <Heading title={"Our Review"} />
+      <ReviewsComponent />
       <Heading title={"Blogs & News"} path="/blogs&news" />
       <BlogNews data={blogNews[0]} />
       <Faq faq={faq} />

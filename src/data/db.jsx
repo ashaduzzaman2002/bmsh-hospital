@@ -231,27 +231,46 @@ export const team = [
   },
 ];
 
-
 export const allEvent = [
-  'All Event',
-  'Free Health Checkup Camp',
-  'Grand Opening',
-  'Infrastructure',
-  'CRP Training for Doctors',
-  'Educational seminar at BNI',
-  'The Mega Camp',
-  'The Grand Free medical health Check up Camp',
-  'Health Check Up Camp, At corporate company',
-  'SEMINAR AT BMSH, ATLANTA',
-  'Lecture on Healthy Diet',
-  'Republic Day Celebration',
-  'Healthy mind,Healthy Body At Udhana',
-  'STBS college, Adolescent health problems',
-  'CME at Nandurbar',
+  "All Event",
+  "Free Health Checkup Camp",
+  "Grand Opening",
+  "Infrastructure",
+  "CRP Training for Doctors",
+  "Educational seminar at BNI",
+  "The Mega Camp",
+  "The Grand Free medical health Check up Camp",
+  "Health Check Up Camp, At corporate company",
+  "SEMINAR AT BMSH, ATLANTA",
+  "Lecture on Healthy Diet",
+  "Republic Day Celebration",
+  "Healthy mind,Healthy Body At Udhana",
+  "STBS college, Adolescent health problems",
+  "CME at Nandurbar",
   "At Mahavir college- Contributing in Indian Women's",
-  'Menstrual hygiene orientation',
+  "Menstrual hygiene orientation",
   "Women's Day Celebration",
   "Women's day",
   "Chitri Navratri and Gudipadva specia",
-  "HPCL FIT TO DRIVE HEALTH AWARENESS WEEK"
-]
+  "HPCL FIT TO DRIVE HEALTH AWARENESS WEEK",
+];
+
+export const reviews = [
+  {
+    image: "/images/review-1.png",
+    message:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.Lorem Ipsum has been the.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem I",
+    profile: "/images/profile-1.svg",
+    name: "Mr. Nayan Kambli",
+    subHeading: "Money 2 Me",
+  },
+
+  {
+    image: "/images/review-1.png",
+    message:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.Lorem Ipsum has been the.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem I",
+    profile: "/images/profile-1.svg",
+    name: "Mr. Nayan Kambli",
+    subHeading: "Money 2 Me",
+  },
+];

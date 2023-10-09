@@ -5,6 +5,7 @@ import Heading from "../../components/heading/Heading";
 import { team } from "../../data/db";
 import "./team.css";
 import { Link } from "react-router-dom";
+import ReviewsComponent from "../../components/reviews-component/ReviewsComponent";
 
 const Team = () => {
   return (
@@ -31,6 +32,9 @@ const Team = () => {
           ))}
         </div>
       </div>
+
+      <Heading title={'Our Review'} />
+      <ReviewsComponent />
     </Layout>
   );
 };
