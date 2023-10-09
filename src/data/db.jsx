@@ -230,3 +230,5 @@ export const team = [
     desc: "Physiotherapy is a health care profession primarily concerned with the remediation of impairments and disabilities and the promotion of mobility, functional ability, quality of life and movement potential through examination, evaluation, diagnosis, and physical intervention carried out by physical therapists.",
   },
 ];
+
+

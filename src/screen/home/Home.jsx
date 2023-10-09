@@ -10,6 +10,7 @@ import Heading from "../../components/heading/Heading";
 import OurService from "../../components/our-service/OurService";
 import GalleryComponent from "../../components/gallery/GalleryComponent";
 import ContactComponent from "../../components/contact-us/ContactComponent";
+import WhyChooseUs from "../../components/why-choose-us/WhyChooseUs";
 
 const Home = () => {
   
@@ -19,6 +20,8 @@ const Home = () => {
       <Heading title={"Our Service"} path="/services" />
       <OurService />
       <OurClient ourClient={ourClient} />
+      <Heading title={'Why Choose Us'} />
+      <WhyChooseUs />
       <Heading title={"Blogs & News"} path="/blogs&news" />
       <BlogNews data={blogNews[0]} />
       <Faq faq={faq} />
