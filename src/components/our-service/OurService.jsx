@@ -7,33 +7,18 @@ import "swiper/css";
 import { Link } from "react-router-dom";
 
 const OurService = () => {
-  const [progress, setProgress] = useState(0);
 
-  const handleProgress = (swiper) => {
-    const { isEnd, progress } = swiper;
-    if (isEnd) {
-      setProgress(1);
-    } else {
-      setProgress(progress);
-    }
-  };
-
-  const [slidesPerView, setSlidesPerView] = useState(2);
   const [slideGap, setSlideGap] = useState(30);
 
   useEffect(() => {
     const updateSlidesPerView = () => {
-      if (window.innerWidth < 450) {
-        setSlidesPerView(1);
+      if (window.innerWidth < 450) {;
         setSlideGap(20);
       } else if (window.innerWidth < 501) {
-        setSlidesPerView(1.6);
         setSlideGap(20);
       } else if (window.innerWidth < 768) {
-        setSlidesPerView(2);
         setSlideGap(15);
       } else {
-        setSlidesPerView(2);
       }
     };
 
@@ -103,7 +88,6 @@ const OurService = () => {
         <Swiper
           spaceBetween={slideGap}
           slidesPerView={1}
-          onProgress={(swiper) => handleProgress(swiper)}
           className="py-lg-5 py-3"
         >
           {services.map((item, i) => (

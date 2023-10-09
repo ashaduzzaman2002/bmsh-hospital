@@ -1,0 +1,47 @@
+.intro-bottom-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 50px;
+}
+
+.intro-text-inner {
+  display: flex;
+  gap: 20px;
+}
+
+.indro-text-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+}
+
+@media screen and (max-width: 1690px) {
+  .indro-text-box {
+    padding: 0 150px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .indro-text-box {
+    padding: 0 120px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .indro-text-box {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .indro-text-box {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 792px) {
+  .indro-text-box {
+    padding: 0 15px;
+  }
+}
+

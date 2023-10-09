@@ -194,3 +194,83 @@ export const gallery = [
     image: "/images/gallery-12.png",
   },
 ];
+
+export const team = [
+  {
+    slug: "dr-alpesh-zala",
+    image: "/images/team-1.png",
+    title: "General Medicine and Intensive Car",
+    name: "Dr Alpesh Zala",
+    specialist: "physician",
+    desc: "He is a full-time physician and intensivist in Bombay Multi Speciality Hospital. He has good ICU experience from Apollo, CIMS hospital Ahmedabad.Cardiac and critical care experience from Wockheart Hospital Surat. He worked as a physician with ONGC Surat.",
+  },
+
+  {
+    slug: "dr-sonia-chandnani",
+    image: "/images/team-2.png",
+    title: "Obstetrics And Gynecologist",
+    name: "Dr.Sonia Chandnani",
+    specialist: "MD / DGO",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+  },
+  {
+    slug: "dr-santosh-yadav",
+    image: "/images/team-3.png",
+    title: "Paediatric and Neonatal Intensive Care Unit",
+    name: "Dr. Santosh Yadav",
+    specialist: "physician",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+  },
+  {
+    slug: "nolan-stanton",
+    image: "/images/team-4.png",
+    title: "Physiotherapy and Rehabilitation",
+    name: "Nolan Stanton",
+    specialist: "Physiotherapy",
+    desc: "Physiotherapy is a health care profession primarily concerned with the remediation of impairments and disabilities and the promotion of mobility, functional ability, quality of life and movement potential through examination, evaluation, diagnosis, and physical intervention carried out by physical therapists.",
+  },
+];
+
+export const allEvent = [
+  "All Event",
+  "Free Health Checkup Camp",
+  "Grand Opening",
+  "Infrastructure",
+  "CRP Training for Doctors",
+  "Educational seminar at BNI",
+  "The Mega Camp",
+  "The Grand Free medical health Check up Camp",
+  "Health Check Up Camp, At corporate company",
+  "SEMINAR AT BMSH, ATLANTA",
+  "Lecture on Healthy Diet",
+  "Republic Day Celebration",
+  "Healthy mind,Healthy Body At Udhana",
+  "STBS college, Adolescent health problems",
+  "CME at Nandurbar",
+  "At Mahavir college- Contributing in Indian Women's",
+  "Menstrual hygiene orientation",
+  "Women's Day Celebration",
+  "Women's day",
+  "Chitri Navratri and Gudipadva specia",
+  "HPCL FIT TO DRIVE HEALTH AWARENESS WEEK",
+];
+
+export const reviews = [
+  {
+    image: "/images/review-1.png",
+    message:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.Lorem Ipsum has been the.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem I",
+    profile: "/images/profile-1.svg",
+    name: "Mr. Nayan Kambli",
+    subHeading: "Money 2 Me",
+  },
+
+  {
+    image: "/images/review-1.png",
+    message:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.Lorem Ipsum has been the.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem I",
+    profile: "/images/profile-1.svg",
+    name: "Mr. Nayan Kambli",
+    subHeading: "Money 2 Me",
+  },
+];

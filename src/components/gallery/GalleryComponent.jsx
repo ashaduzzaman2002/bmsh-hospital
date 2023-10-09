@@ -31,18 +31,23 @@ const GalleryComponent = () => {
 
   return (
     <div>
-      <div className="bg-danger position-relative">
-        <Swiper  spaceBetween={0} slidesPerView={4.5} onSwiper={setSwiper1}>
+      <div className="position-relative">
+        <Swiper
+          loop={true}
+          spaceBetween={0}
+          slidesPerView={4.5}
+          onSwiper={setSwiper1}
+        >
           {gallery.map((item, i) => (
-            <SwiperSlide>
-              <div key={i} className="gallery-card">
+            <SwiperSlide key={i}>
+              <div className="gallery-card">
                 <img src={item.image} alt="" />
               </div>
             </SwiperSlide>
           ))}
         </Swiper>
 
-        <button className="next-btn" onClick={handleNext}>
+        <button className="next-btn" onClick={handlePrev}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="50"
@@ -58,18 +63,23 @@ const GalleryComponent = () => {
         </button>
       </div>
 
-      <div className="bg-danger position-relative">
-        <Swiper spaceBetween={0} slidesPerView={4.5} onSwiper={setSwiper2}>
+      <div className="position-relative">
+        <Swiper
+          loop={true}
+          spaceBetween={0}
+          slidesPerView={4.5}
+          onSwiper={setSwiper2}
+        >
           {gallery.reverse().map((item, i) => (
-            <SwiperSlide>
-              <div key={i} className="gallery-card">
+            <SwiperSlide key={i}>
+              <div className="gallery-card">
                 <img src={item.image} alt="" />
               </div>
             </SwiperSlide>
           ))}
         </Swiper>
 
-        <button className="prev-btn" onClick={handlePrev}>
+        <button className="prev-btn" onClick={handleNext}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="50"
