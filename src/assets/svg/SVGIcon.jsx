@@ -2797,30 +2797,22 @@ export const ReviewBorder = () => (
   </svg>
 );
 
-export const LeftArrow = () => (
+export const ProgressBarSm = () => (
   <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="30"
-    height="30"
-    viewBox="0 0 30 30"
+    width="16"
+    height="145"
+    viewBox="0 0 16 145"
     fill="none"
+    xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0_121_4605)">
-      <path
-        d="M0.34371 14.1705L0.344767 14.1694L6.46805 8.07562C6.92678 7.61912 7.66875 7.62082 8.12537 8.07961C8.58193 8.53834 8.58018 9.28031 8.12144 9.73687L4.01027 13.8281H28.8281C29.4754 13.8281 30 14.3528 30 15C30 15.6472 29.4754 16.1719 28.8281 16.1719H4.01033L8.12139 20.2631C8.58012 20.7197 8.58187 21.4617 8.12531 21.9204C7.66869 22.3792 6.92666 22.3808 6.46799 21.9244L0.344707 15.8306L0.343651 15.8295C-0.115313 15.3714 -0.113848 14.627 0.34371 14.1705Z"
-        fill="black"
-      />
-    </g>
-    <defs>
-      <clipPath id="clip0_121_4605">
-        <rect
-          width="30"
-          height="30"
-          fill="white"
-          transform="matrix(-1 0 0 1 30 0)"
-        />
-      </clipPath>
-    </defs>
+    <rect x="7" y="20" width="2" height="46" fill="#0072BB" />
+    <rect x="7" y="81" width="2" height="46" fill="#0072BB" />
+    <circle cx="8" cy="12.5" r="7.25" stroke="#0072BB" stroke-width="1.5" />
+    <circle cx="8.0002" cy="12.4997" r="4.57143" fill="#0072BB" />
+    <circle cx="8" cy="73" r="7.25" stroke="#0072BB" stroke-width="1.5" />
+    <circle cx="8.0002" cy="72.9997" r="4.57143" fill="#0072BB" />
+    <circle cx="8" cy="133.5" r="7.25" stroke="#0072BB" stroke-width="1.5" />
+    <circle cx="8.0002" cy="133.5" r="4.57143" fill="#0072BB" />
   </svg>
 );
 
